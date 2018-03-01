@@ -1,65 +1,65 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Angriff",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Nahkampf- oder Distanzangriff",
+        description: "Führen Sie einen Nahkampf- oder Distanzangriff mit Ihrer Waffe durch.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Bestimmte Features, wie z.B. das <i>Extra Attack</i> Feature des Kämpfers, erlauben es dir, mehr als einen Angriff mit dieser Aktion durchzuführen. Jeder dieser Angriffe ist ein eigener Wurf und kann verschiedene Kreaturen angreifen. Sie können sich zwischen diesen Angriffen bewegen.",
+            "Wenn du mit einer leichten Nahkampfwaffe angreifst, kannst du eine Bonusaktion benutzen, um mit deiner anderen Hand anzugreifen (siehe <i>Offhandangriff</i> Bonusaktion).",
+            "Sie können einen Ihrer Nahkampfangriffe durch einen <i>Griff</i> oder einen <i>Shove</i> ersetzen.",
+            "Einige Bedingungen sind vorteilhaft für den Angriff: Angriffe gegen geblendete, gelähmte, versteinerte, gelähmte, gelähmte, gebändigte, betäubte oder unbewusste Ziele; Nahkampfangriffe gegen anfällige Ziele; Angriffe durch unsichtbare oder versteckte Angreifer.",
+            "Einige Bedingungen sind nachteilig für den Angriff: Angriffe auf unsichtbare oder versteckte Ziele; Distanzangriffe auf anfällige Ziele; Angriffe von geblendeten, ängstlichen, vergifteten oder zurückhaltenden Angreifern."
         ]
     },
     {
-        title: "Grapple",
+        title: "Greifen",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Spezieller Nahkampfangriff",
+        description: "Versuche, eine Kreatur zu ergreifen oder mit ihr zu ringen.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Sie können die Aktion <i>Attack</i> verwenden, um einen speziellen Nahkampfangriff, einen Magnethaken, durchzuführen. Wenn Sie in der Lage sind, mehrere Angriffe mit der Aktion Angriff auszuführen, ersetzt dieser Angriff einen von ihnen.",
+            "Das Ziel Ihres Greifers darf nicht mehr als eine Nummer größer sein als Sie, und es muss in Ihrer Reichweite sein.",
+            "Mit mindestens einer freien Hand versuchen Sie, das Ziel zu ergreifen, indem Sie einen Haken-Check, einen Stärke-Check (Athletik), der durch den Stärke-Check (Athletik) oder Geschicklichkeits-Check (Akrobatik) des Ziels angefochten wird (das Ziel wählt die Fähigkeit zu benutzen).",
+            "Wenn Sie Erfolg haben, unterwerfen Sie das Ziel dem Zustand des Festhaltens (seine Geschwindigkeit ist auf 0 gesetzt)."
         ]
     },
     {
-        title: "Shove",
+        title: "Stoßen",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Spezieller Nahkampfangriff",
+        description: "Schieben Sie eine Kreatur, entweder, um sie anfällig zu machen oder um sie von Ihnen wegzustoßen.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
-        ]
+            "Mit der Aktion <i>Attack</i> kannst du einen speziellen Nahkampfangriff durchführen, um eine Kreatur zu stoßen. Wenn Sie in der Lage sind, mehrere Angriffe mit der Aktion Angriff auszuführen, ersetzt dieser Angriff einen von ihnen.",
+            "Das Ziel Ihres Stoßes darf nicht mehr als eine Nummer größer sein als Sie, und es muss in Ihrer Reichweite sein.",
+            "Sie machen einen Stärke- (Leichtathletik) Check, der durch den Stärke- (Leichtathletik) oder Geschicklichkeits- (Akrobatik) Check des Ziels angefochten wird (das Ziel wählt die Fähigkeit zu benutzen).",
+            "Wenn du den Wettbewerb gewinnst, dann klopfst du entweder das Ziel an oder schiebst es 5 Fuß von dir weg."
+  ]
     },
     {
-        title: "Cast a spell",
+        title: "zauber sprechen",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Zauberzeit von 1 Aktion",
+        description: "Wirke einen Zauber mit einer Zauberzeit von 1 Aktion.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Du kannst keinen Zauber mit deiner Aktion und keinen anderen Zauber mit deiner Bonusaktion in derselben Runde wirken, außer wenn die Aktion dazu benutzt wird, einen Cantrip zu werfen.",
+            "Das Ziel eines Zauberspruchs muss sich innerhalb der Reichweite des Zaubers befinden. Um etwas ins Visier zu nehmen, muss man einen klaren Weg dorthin haben, damit es nicht hinter der totalen Deckung stecken kann.",
+            "Zaubersprüche mit materiellen Bestandteilen verbrauchen das Material nicht, es sei denn, es wird ausdrücklich darauf hingewiesen. Wenn die Kosten für ein Material nicht angegeben sind, können Sie davon ausgehen, dass die Kosten vernachlässigbar gering sind und das Material einfach in einem Komponentenbeutel zur Verfügung steht.",
+            "Manche Zaubersprüche erfordern Konzentration, um ihre Magie aktiv zu halten. Wenn du die Konzentration verlierst, endet ein solcher Zauber. Du verlierst die Konzentration auf einen Zauber, wenn du einen anderen Zauber wirfst, der Konzentration erfordert, oder wenn du arbeitsunfähig bist. Jedes Mal, wenn ihr Schaden erleidet, müsst ihr einen verfassungsmäßigen Rettungswurf machen, um eure Konzentration aufrechtzuerhalten. Der DC entspricht 10 oder der Hälfte des Schadens, den du erleidest, je nachdem, welche Zahl höher ist."
         ]
     },
     {
-        title: "Dash",
+        title: "Sprinten",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Doppelte Bewegungsgeschwindigkeit",
+        description: "Zusätzliche Bewegung für den aktuellen Zug gewinnen",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "Die Erhöhung entspricht Ihrer Geschwindigkeit, nachdem Sie irgendwelche Modifikatoren angewendet haben."
         ]
     },
     {
